@@ -5,9 +5,9 @@ StripeConfiguration.ApiKey = "sk_live_...4kUR";
 
 var options = new CardCreateOptions
 {
-  Cardholder = "ich_1Cm3pZIyNTgGDVfzI83rasFP",
+  Cardholder = "acct_1HniFF2UNLGLziCb",
   Type = "virtual",
-  Currency = "usd",
+  Currency = "cad",
 };
 
 var service = new CardService();
